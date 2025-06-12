@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom, #ffeef5, #fff5fa);
+  color: #4d2c3d;
+  text-align: center;
+}
+
+/* 🍓 Navbar */
+.topnav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ffdee9;
+  padding: 12px;
+  border-bottom: 2px dashed #f7a1c4;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.dropdown {
+  position: relative;
+  margin: 6px;
+}
+
+.dropbtn {
+  background-color: #fff0f7;
+  color: #c95e88;
+  border: 1px solid #f7a1c4;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dropbtn:hover {
+  background-color: #ffcbe3;
+  color: #5c2734;
+  transform: scale(1.05);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffafd;
+  min-width: 160px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(255, 182, 193, 0.3);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #c95e88;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffe0eb;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* 🩰 Layout */
+.main-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.profile-sidebar {
+  max-width: 300px;
+  text-align: left;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 3px solid #f7a1c4;
+  object-fit: cover;
+  box-shadow: 0 0 15px #f7a1c4;
+  margin-bottom: 20px;
+}
+
+.profile-sidebar h1 {
+  font-family: 'Cherry Bomb One', cursive;
+  color: #e36a9b;
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+.bio {
+  color: #bb5d87;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* 💗 Boxes */
+.text-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  background-color: #ffe0eb;
+  color: #743850;
+  padding: 20px;
+  border-radius: 14px;
+  width: 240px;
+  box-shadow: 0 4px 12px rgba(255, 153, 204, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  background-color: #ffd3e3;
+}
+
+footer {
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #9e4d6d;
+  background-color: #ffe6f0;
+  border-top: 2px dashed #f7a1c4;
+}
+
+
+
