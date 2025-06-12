@@ -5,6 +5,11 @@
 p {
     color: navy;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: Helvetica, Arial, sans-serif;
+    font-variant: small-caps;
+
+}
 
 /* The background color is extending across the page,
     so I have commented it out for now. */
